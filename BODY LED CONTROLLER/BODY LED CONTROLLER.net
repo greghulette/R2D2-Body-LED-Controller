@@ -1,0 +1,2546 @@
+(export 
+  (version D) 
+  (design 
+    (source /Users/gregoryhulette/Documents/KiCad/BODY LED CONTROLLER/BODY LED CONTROLLER/BODY LED CONTROLLER.sch) 
+    (date "Wednesday, December 15, 2021 at 11:27:20 AM") 
+    (tool "Eeschema (5.1.9-0-10_14)") 
+    (sheet 
+      (number 1) 
+      (name /) 
+      (tstamps /) 
+      (title_block 
+        (title) 
+        (company) 
+        (rev) 
+        (date) 
+        (source BODY LED CONTROLLER.sch) 
+        (comment 
+          (number 1) 
+          (value "")) 
+        (comment 
+          (number 2) 
+          (value "")) 
+        (comment 
+          (number 3) 
+          (value "")) 
+        (comment 
+          (number 4) 
+          (value ""))))) 
+  (components 
+    (comp 
+      (ref U2) 
+      (value LilyGo_TTGO_T7_V1.5) 
+      (footprint ESP32:LILYGO_TTGO_T7_V1.5) 
+      (libsource 
+        (lib Lilygo_TTGO_T7_V15) 
+        (part LilyGo_TTGO_T7_V1.5) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61AF99FE)) 
+    (comp 
+      (ref J5) 
+      (value Maint/LDP) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x04_Counter_Clockwise) 
+        (description "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61AFC925)) 
+    (comp 
+      (ref J6) 
+      (value "Coin/Data Panel") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x06_Counter_Clockwise) 
+        (description "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61AFD837)) 
+    (comp 
+      (ref U1) 
+      (value D24V550F5_Step_Down_Regulator) 
+      (footprint Pololu:D24V50F5_Step_Down_Regulator) 
+      (libsource 
+        (lib Pololu_D24V50F5_Step_Down_Regulator) 
+        (part D24V550F5_Step_Down_Regulator) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B02B3E)) 
+    (comp 
+      (ref RV1) 
+      (value TRIM1) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_POT_TRIM) 
+        (description Trim-potentiometer)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B0ED16)) 
+    (comp 
+      (ref RV4) 
+      (value TRIM2) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_POT_TRIM) 
+        (description Trim-potentiometer)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B0F359)) 
+    (comp 
+      (ref RV2) 
+      (value TRIM3) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_POT_TRIM) 
+        (description Trim-potentiometer)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B10008)) 
+    (comp 
+      (ref RV5) 
+      (value TRIM4) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_POT_TRIM) 
+        (description Trim-potentiometer)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B10708)) 
+    (comp 
+      (ref RV3) 
+      (value TRIM5) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_POT_TRIM) 
+        (description Trim-potentiometer)) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B10A7C)) 
+    (comp 
+      (ref SW1) 
+      (value SW_DIP_x05) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_DIP_x05) 
+        (description "5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B127EC)) 
+    (comp 
+      (ref RN1) 
+      (value R_Network05) 
+      (footprint Resistor_THT:R_Array_SIP6) 
+      (datasheet http://www.vishay.com/docs/31509/csc.pdf) 
+      (libsource 
+        (lib Device) 
+        (part R_Network05) 
+        (description "5 resistor network, star topology, bussed resistors, small symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B149B3)) 
+    (comp 
+      (ref SW2) 
+      (value SW_DPST) 
+      (datasheet ~) 
+      (libsource 
+        (lib Switch) 
+        (part SW_DPST) 
+        (description "Double Pole Single Throw (DPST) Switch")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B1C2FA)) 
+    (comp 
+      (ref J8) 
+      (value "Spectrum Analyzer") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x06) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B1E5F4)) 
+    (comp 
+      (ref J9) 
+      (value I2C) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x04_Counter_Clockwise) 
+        (description "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B1FDE4)) 
+    (comp 
+      (ref J7) 
+      (value "Data Panel/ CBI") 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x05) 
+        (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B25AD4)) 
+    (comp 
+      (ref J10) 
+      (value Serial) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_02x04_Counter_Clockwise) 
+        (description "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61B27D76)) 
+    (comp 
+      (ref R1) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61BE24CD)) 
+    (comp 
+      (ref R4) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61BE6BED)) 
+    (comp 
+      (ref R2) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61C19ABB)) 
+    (comp 
+      (ref R3) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61C1A844)) 
+    (comp 
+      (ref R5) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61C1AF7F)) 
+    (comp 
+      (ref R6) 
+      (value R_Small_US) 
+      (footprint Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Device) 
+        (part R_Small_US) 
+        (description "Resistor, small US symbol")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61C1B84D)) 
+    (comp 
+      (ref J11) 
+      (value "Spectrum Analyzer") 
+      (footprint Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x06) 
+        (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61CF928C)) 
+    (comp 
+      (ref J1) 
+      (value Screw_Terminal_01x02) 
+      (footprint TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D3702B)) 
+    (comp 
+      (ref J2) 
+      (value Screw_Terminal_01x02) 
+      (footprint TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D38019)) 
+    (comp 
+      (ref J3) 
+      (value Screw_Terminal_01x02) 
+      (footprint TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D3870D)) 
+    (comp 
+      (ref J4) 
+      (value Screw_Terminal_01x02) 
+      (footprint TerminalBlock_RND:TerminalBlock_RND_205-00287_1x02_P5.08mm_Horizontal) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector) 
+        (part Screw_Terminal_01x02) 
+        (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61D39006)) 
+    (comp 
+      (ref J12) 
+      (value Conn_01x03) 
+      (footprint Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical) 
+      (datasheet ~) 
+      (libsource 
+        (lib Connector_Generic) 
+        (part Conn_01x03) 
+        (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 6208ADE7)) 
+    (comp 
+      (ref U4) 
+      (value Arduino_Mega2560_Mini) 
+      (footprint Arduino_Mega_2560_Pro_Mini:Arduino_Mega_2560_Pro_MINI) 
+      (libsource 
+        (lib Arduino_Mega2560_Mini) 
+        (part Arduino_Mega2560_Mini) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61BBF744)) 
+    (comp 
+      (ref U3) 
+      (value LogicLevelConverter) 
+      (libsource 
+        (lib Lilygo_TTGO_T7_V15) 
+        (part LogicLevelConverter) 
+        (description "")) 
+      (sheetpath 
+        (names /) 
+        (tstamps /)) 
+      (tstamp 61BC5DB7))) 
+  (libparts 
+    (libpart 
+      (lib Arduino_Mega2560_Mini) 
+      (part Arduino_Mega2560_Mini) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) Arduino_Mega2560_Mini)) 
+      (pins 
+        (pin 
+          (num 0) 
+          (name RX) 
+          (type BiDi)) 
+        (pin 
+          (num 1) 
+          (name TX) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name D2) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name D3) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name D4) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name D5) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name D6) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name D7) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name D8) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name D9) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name D10) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name D11) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name D12) 
+          (type BiDi)) 
+        (pin 
+          (num 13) 
+          (name D13) 
+          (type BiDi)) 
+        (pin 
+          (num 14) 
+          (name D14) 
+          (type BiDi)) 
+        (pin 
+          (num 15) 
+          (name D15) 
+          (type BiDi)) 
+        (pin 
+          (num 16) 
+          (name D16) 
+          (type BiDi)) 
+        (pin 
+          (num 17) 
+          (name D17) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name D18) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name D19) 
+          (type BiDi)) 
+        (pin 
+          (num 20) 
+          (name D20) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name D21) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name D22) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name D23) 
+          (type BiDi)) 
+        (pin 
+          (num 24) 
+          (name D24) 
+          (type BiDi)) 
+        (pin 
+          (num 25) 
+          (name D25) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name D26) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name D27) 
+          (type BiDi)) 
+        (pin 
+          (num 28) 
+          (name D28) 
+          (type BiDi)) 
+        (pin 
+          (num 29) 
+          (name D29) 
+          (type BiDi)) 
+        (pin 
+          (num 30) 
+          (name D30) 
+          (type BiDi)) 
+        (pin 
+          (num 31) 
+          (name D31) 
+          (type BiDi)) 
+        (pin 
+          (num 32) 
+          (name D32) 
+          (type BiDi)) 
+        (pin 
+          (num 33) 
+          (name D33) 
+          (type BiDi)) 
+        (pin 
+          (num 34) 
+          (name D34) 
+          (type BiDi)) 
+        (pin 
+          (num 35) 
+          (name D35) 
+          (type BiDi)) 
+        (pin 
+          (num 36) 
+          (name D36) 
+          (type BiDi)) 
+        (pin 
+          (num 37) 
+          (name D37) 
+          (type BiDi)) 
+        (pin 
+          (num 38) 
+          (name D38) 
+          (type BiDi)) 
+        (pin 
+          (num 39) 
+          (name D39) 
+          (type BiDi)) 
+        (pin 
+          (num 40) 
+          (name D40) 
+          (type BiDi)) 
+        (pin 
+          (num 41) 
+          (name D41) 
+          (type BiDi)) 
+        (pin 
+          (num 42) 
+          (name D42) 
+          (type BiDi)) 
+        (pin 
+          (num 43) 
+          (name D43) 
+          (type BiDi)) 
+        (pin 
+          (num 44) 
+          (name D44) 
+          (type BiDi)) 
+        (pin 
+          (num 45) 
+          (name D45) 
+          (type BiDi)) 
+        (pin 
+          (num 46) 
+          (name D46) 
+          (type BiDi)) 
+        (pin 
+          (num 47) 
+          (name D47) 
+          (type BiDi)) 
+        (pin 
+          (num 48) 
+          (name D48) 
+          (type BiDi)) 
+        (pin 
+          (num 49) 
+          (name D49) 
+          (type BiDi)) 
+        (pin 
+          (num 50) 
+          (name D50) 
+          (type BiDi)) 
+        (pin 
+          (num 51) 
+          (name D51) 
+          (type BiDi)) 
+        (pin 
+          (num 52) 
+          (name D52) 
+          (type BiDi)) 
+        (pin 
+          (num 53) 
+          (name D53) 
+          (type BiDi)) 
+        (pin 
+          (num 60) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 61) 
+          (name GND) 
+          (type input)) 
+        (pin 
+          (num 70) 
+          (name VIN) 
+          (type input)) 
+        (pin 
+          (num 71) 
+          (name VCC) 
+          (type input)) 
+        (pin 
+          (num 72) 
+          (name VCC) 
+          (type BiDi)) 
+        (pin 
+          (num 100) 
+          (name RST_FTDI) 
+          (type input)) 
+        (pin 
+          (num 101) 
+          (name TX_FTDI) 
+          (type output)) 
+        (pin 
+          (num 102) 
+          (name RX_FTDI) 
+          (type input)) 
+        (pin 
+          (num 103) 
+          (name VCC_FTDI) 
+          (type BiDi)) 
+        (pin 
+          (num 104) 
+          (name AREF) 
+          (type BiDi)) 
+        (pin 
+          (num 105) 
+          (name RST) 
+          (type BiDi)) 
+        (pin 
+          (num 200) 
+          (name A0) 
+          (type BiDi)) 
+        (pin 
+          (num 201) 
+          (name A1) 
+          (type BiDi)) 
+        (pin 
+          (num 202) 
+          (name A2) 
+          (type BiDi)) 
+        (pin 
+          (num 203) 
+          (name A3) 
+          (type BiDi)) 
+        (pin 
+          (num 204) 
+          (name A4) 
+          (type BiDi)) 
+        (pin 
+          (num 205) 
+          (name A5) 
+          (type BiDi)) 
+        (pin 
+          (num 206) 
+          (name A6) 
+          (type BiDi)) 
+        (pin 
+          (num 207) 
+          (name A7) 
+          (type BiDi)) 
+        (pin 
+          (num 208) 
+          (name A8) 
+          (type BiDi)) 
+        (pin 
+          (num 209) 
+          (name A9) 
+          (type BiDi)) 
+        (pin 
+          (num 210) 
+          (name A10) 
+          (type BiDi)) 
+        (pin 
+          (num 211) 
+          (name A11) 
+          (type BiDi)) 
+        (pin 
+          (num 212) 
+          (name A12) 
+          (type BiDi)) 
+        (pin 
+          (num 213) 
+          (name A13) 
+          (type BiDi)) 
+        (pin 
+          (num 214) 
+          (name A14) 
+          (type BiDi)) 
+        (pin 
+          (num 215) 
+          (name A15) 
+          (type BiDi)))) 
+    (libpart 
+      (lib Connector) 
+      (part Screw_Terminal_01x02) 
+      (description "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp TerminalBlock*:*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Screw_Terminal_01x02)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x03) 
+      (description "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x03)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x05) 
+      (description "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x05)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_01x06) 
+      (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_1x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_01x06)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x04_Counter_Clockwise) 
+      (description "Generic connector, double row, 02x04, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x04_Counter_Clockwise)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)))) 
+    (libpart 
+      (lib Connector_Generic) 
+      (part Conn_02x06_Counter_Clockwise) 
+      (description "Generic connector, double row, 02x06, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)") 
+      (docs ~) 
+      (footprints 
+        (fp Connector*:*_2x??_*)) 
+      (fields 
+        (field 
+          (name Reference) J) 
+        (field 
+          (name Value) Conn_02x06_Counter_Clockwise)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name Pin_1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name Pin_2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name Pin_3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name Pin_4) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name Pin_5) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name Pin_6) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name Pin_7) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name Pin_8) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name Pin_9) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name Pin_10) 
+          (type passive)) 
+        (pin 
+          (num 11) 
+          (name Pin_11) 
+          (type passive)) 
+        (pin 
+          (num 12) 
+          (name Pin_12) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_Network05) 
+      (description "5 resistor network, star topology, bussed resistors, small symbol") 
+      (docs http://www.vishay.com/docs/31509/csc.pdf) 
+      (footprints 
+        (fp R?Array?SIP*)) 
+      (fields 
+        (field 
+          (name Reference) RN) 
+        (field 
+          (name Value) R_Network05) 
+        (field 
+          (name Footprint) Resistor_THT:R_Array_SIP6)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name common) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name R1) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name R2) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name R3) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name R4) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name R5) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_POT_TRIM) 
+      (description Trim-potentiometer) 
+      (docs ~) 
+      (footprints 
+        (fp Potentiometer*)) 
+      (fields 
+        (field 
+          (name Reference) RV) 
+        (field 
+          (name Value) R_POT_TRIM)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)))) 
+    (libpart 
+      (lib Device) 
+      (part R_Small_US) 
+      (description "Resistor, small US symbol") 
+      (docs ~) 
+      (footprints 
+        (fp R_*)) 
+      (fields 
+        (field 
+          (name Reference) R) 
+        (field 
+          (name Value) R_Small_US)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Lilygo_TTGO_T7_V15) 
+      (part LilyGo_TTGO_T7_V1.5) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LilyGo_TTGO_T7_V1.5)) 
+      (pins 
+        (pin 
+          (num 0) 
+          (name GPIO0) 
+          (type BiDi)) 
+        (pin 
+          (num 1) 
+          (name Tx0) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name GPIO2) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name Rx0) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name GPIO4) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name GPIO5) 
+          (type BiDi)) 
+        (pin 
+          (num 18) 
+          (name GPIO18) 
+          (type BiDi)) 
+        (pin 
+          (num 19) 
+          (name GPIO19) 
+          (type BiDi)) 
+        (pin 
+          (num 21) 
+          (name GPIO21) 
+          (type BiDi)) 
+        (pin 
+          (num 22) 
+          (name GPIO22) 
+          (type BiDi)) 
+        (pin 
+          (num 23) 
+          (name GPIO23) 
+          (type BiDi)) 
+        (pin 
+          (num 25) 
+          (name GPIO25) 
+          (type BiDi)) 
+        (pin 
+          (num 26) 
+          (name GPIO26) 
+          (type BiDi)) 
+        (pin 
+          (num 27) 
+          (name GPIO27) 
+          (type BiDi)) 
+        (pin 
+          (num 32) 
+          (name GPIO32) 
+          (type BiDi)) 
+        (pin 
+          (num 33) 
+          (name GPIO33) 
+          (type BiDi)) 
+        (pin 
+          (num 34) 
+          (name GPIO34) 
+          (type BiDi)) 
+        (pin 
+          (num 35) 
+          (name GPIO35) 
+          (type BiDi)) 
+        (pin 
+          (num 39) 
+          (name VN) 
+          (type BiDi)) 
+        (pin 
+          (num 60) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 61) 
+          (name GND) 
+          (type power_in)) 
+        (pin 
+          (num 62) 
+          (name GND) 
+          (type BiDi)) 
+        (pin 
+          (num 70) 
+          (name 5V) 
+          (type power_in)) 
+        (pin 
+          (num 71) 
+          (name 3V3) 
+          (type BiDi)) 
+        (pin 
+          (num 80) 
+          (name TDO) 
+          (type BiDi)) 
+        (pin 
+          (num 81) 
+          (name SD0) 
+          (type BiDi)) 
+        (pin 
+          (num 82) 
+          (name TDI) 
+          (type BiDi)) 
+        (pin 
+          (num 83) 
+          (name SD1) 
+          (type BiDi)) 
+        (pin 
+          (num 84) 
+          (name CLK) 
+          (type BiDi)) 
+        (pin 
+          (num 85) 
+          (name RST) 
+          (type BiDi)) 
+        (pin 
+          (num 86) 
+          (name VP) 
+          (type BiDi)) 
+        (pin 
+          (num 87) 
+          (name TCK) 
+          (type BiDi)) 
+        (pin 
+          (num 88) 
+          (name SD3) 
+          (type BiDi)) 
+        (pin 
+          (num 89) 
+          (name NC) 
+          (type BiDi)) 
+        (pin 
+          (num 90) 
+          (name TMS) 
+          (type BiDi)) 
+        (pin 
+          (num 91) 
+          (name NC) 
+          (type BiDi)) 
+        (pin 
+          (num 92) 
+          (name SD2) 
+          (type BiDi)) 
+        (pin 
+          (num 93) 
+          (name CMD) 
+          (type BiDi)) 
+        (pin 
+          (num 251) 
+          (name GPIO25_1) 
+          (type BiDi)) 
+        (pin 
+          (num 271) 
+          (name GPIO27_1) 
+          (type BiDi)))) 
+    (libpart 
+      (lib Lilygo_TTGO_T7_V15) 
+      (part LogicLevelConverter) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) LogicLevelConverter)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 5v) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type BiDi)) 
+        (pin 
+          (num 3) 
+          (name HV1) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name HV2) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name HV3) 
+          (type BiDi)) 
+        (pin 
+          (num 6) 
+          (name HV4) 
+          (type BiDi)) 
+        (pin 
+          (num 7) 
+          (name 3V3) 
+          (type BiDi)) 
+        (pin 
+          (num 8) 
+          (name GND) 
+          (type BiDi)) 
+        (pin 
+          (num 9) 
+          (name LV1) 
+          (type BiDi)) 
+        (pin 
+          (num 10) 
+          (name LV2) 
+          (type BiDi)) 
+        (pin 
+          (num 11) 
+          (name LV3) 
+          (type BiDi)) 
+        (pin 
+          (num 12) 
+          (name LV4) 
+          (type BiDi)))) 
+    (libpart 
+      (lib Pololu_D24V50F5_Step_Down_Regulator) 
+      (part D24V550F5_Step_Down_Regulator) 
+      (fields 
+        (field 
+          (name Reference) U) 
+        (field 
+          (name Value) D24V550F5_Step_Down_Regulator)) 
+      (pins 
+        (pin 
+          (num 0) 
+          (name En) 
+          (type BiDi)) 
+        (pin 
+          (num 1) 
+          (name VIN) 
+          (type BiDi)) 
+        (pin 
+          (num 2) 
+          (name GND) 
+          (type BiDi)) 
+        (pin 
+          (num 4) 
+          (name GND) 
+          (type BiDi)) 
+        (pin 
+          (num 5) 
+          (name VOut) 
+          (type BiDi)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_DIP_x05) 
+      (description "5x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol") 
+      (docs ~) 
+      (footprints 
+        (fp SW?DIP?x5*)) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_DIP_x05)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 5) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 6) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 7) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 8) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 9) 
+          (name ~) 
+          (type passive)) 
+        (pin 
+          (num 10) 
+          (name ~) 
+          (type passive)))) 
+    (libpart 
+      (lib Switch) 
+      (part SW_DPST) 
+      (description "Double Pole Single Throw (DPST) Switch") 
+      (docs ~) 
+      (fields 
+        (field 
+          (name Reference) SW) 
+        (field 
+          (name Value) SW_DPST)) 
+      (pins 
+        (pin 
+          (num 1) 
+          (name 1) 
+          (type passive)) 
+        (pin 
+          (num 2) 
+          (name 2) 
+          (type passive)) 
+        (pin 
+          (num 3) 
+          (name 3) 
+          (type passive)) 
+        (pin 
+          (num 4) 
+          (name 4) 
+          (type passive))))) 
+  (libraries 
+    (library 
+      (logical Arduino_Mega2560_Mini) 
+      (uri /Users/gregoryhulette/Documents/KiCad/Arduino_Mega2560_Mini/Arduino_Mega2560_Mini.lib)) 
+    (library 
+      (logical Connector) 
+      (uri "/Library/Application Support/kicad/library/Connector.lib")) 
+    (library 
+      (logical Connector_Generic) 
+      (uri "/Library/Application Support/kicad/library/Connector_Generic.lib")) 
+    (library 
+      (logical Device) 
+      (uri "/Library/Application Support/kicad/library/Device.lib")) 
+    (library 
+      (logical Lilygo_TTGO_T7_V15) 
+      (uri /Users/gregoryhulette/Documents/KiCad/ESP32/ESP_Serial_Board_LillyGoT7v15/Lilygo_TTGO_T7_V15.lib)) 
+    (library 
+      (logical Pololu_D24V50F5_Step_Down_Regulator) 
+      (uri "/Users/gregoryhulette/Documents/KiCad/Custom Libraries/Pololu D24V50F5 Step Down Regulator/Pololu_D24V50F5_Step_Down_Regulator.lib")) 
+    (library 
+      (logical Switch) 
+      (uri "/Library/Application Support/kicad/library/Switch.lib"))) 
+  (nets 
+    (net 
+      (code 1) 
+      (name "Net-(U2-Pad0)") 
+      (node 
+        (ref U2) 
+        (pin 0))) 
+    (net 
+      (code 2) 
+      (name "Net-(U2-Pad1)") 
+      (node 
+        (ref U2) 
+        (pin 1))) 
+    (net 
+      (code 3) 
+      (name "Net-(U2-Pad18)") 
+      (node 
+        (ref U2) 
+        (pin 18))) 
+    (net 
+      (code 4) 
+      (name "Net-(U2-Pad19)") 
+      (node 
+        (ref U2) 
+        (pin 19))) 
+    (net 
+      (code 5) 
+      (name "Net-(U2-Pad2)") 
+      (node 
+        (ref U2) 
+        (pin 2))) 
+    (net 
+      (code 6) 
+      (name "Net-(U2-Pad21)") 
+      (node 
+        (ref U2) 
+        (pin 21))) 
+    (net 
+      (code 7) 
+      (name "Net-(U2-Pad22)") 
+      (node 
+        (ref U2) 
+        (pin 22))) 
+    (net 
+      (code 8) 
+      (name "Net-(U2-Pad23)") 
+      (node 
+        (ref U2) 
+        (pin 23))) 
+    (net 
+      (code 9) 
+      (name "Net-(U2-Pad25)") 
+      (node 
+        (ref U2) 
+        (pin 25))) 
+    (net 
+      (code 10) 
+      (name ESP_LOGIC_RX) 
+      (node 
+        (ref U2) 
+        (pin 251)) 
+      (node 
+        (ref U3) 
+        (pin 10))) 
+    (net 
+      (code 11) 
+      (name "Net-(U2-Pad26)") 
+      (node 
+        (ref U2) 
+        (pin 26))) 
+    (net 
+      (code 12) 
+      (name "Net-(U2-Pad27)") 
+      (node 
+        (ref U2) 
+        (pin 27))) 
+    (net 
+      (code 13) 
+      (name ESP_LOGIC_TX) 
+      (node 
+        (ref U2) 
+        (pin 271)) 
+      (node 
+        (ref U3) 
+        (pin 9))) 
+    (net 
+      (code 14) 
+      (name "Net-(U2-Pad3)") 
+      (node 
+        (ref U2) 
+        (pin 3))) 
+    (net 
+      (code 15) 
+      (name "Net-(U2-Pad32)") 
+      (node 
+        (ref U2) 
+        (pin 32))) 
+    (net 
+      (code 16) 
+      (name "Net-(U2-Pad33)") 
+      (node 
+        (ref U2) 
+        (pin 33))) 
+    (net 
+      (code 17) 
+      (name "Net-(U2-Pad34)") 
+      (node 
+        (ref U2) 
+        (pin 34))) 
+    (net 
+      (code 18) 
+      (name "Net-(U2-Pad35)") 
+      (node 
+        (ref U2) 
+        (pin 35))) 
+    (net 
+      (code 19) 
+      (name "Net-(U2-Pad39)") 
+      (node 
+        (ref U2) 
+        (pin 39))) 
+    (net 
+      (code 20) 
+      (name "Net-(U2-Pad4)") 
+      (node 
+        (ref U2) 
+        (pin 4))) 
+    (net 
+      (code 21) 
+      (name "Net-(U2-Pad5)") 
+      (node 
+        (ref U2) 
+        (pin 5))) 
+    (net 
+      (code 22) 
+      (name "Net-(U2-Pad80)") 
+      (node 
+        (ref U2) 
+        (pin 80))) 
+    (net 
+      (code 23) 
+      (name "Net-(U2-Pad81)") 
+      (node 
+        (ref U2) 
+        (pin 81))) 
+    (net 
+      (code 24) 
+      (name "Net-(U2-Pad82)") 
+      (node 
+        (ref U2) 
+        (pin 82))) 
+    (net 
+      (code 25) 
+      (name "Net-(U2-Pad83)") 
+      (node 
+        (ref U2) 
+        (pin 83))) 
+    (net 
+      (code 26) 
+      (name "Net-(U2-Pad84)") 
+      (node 
+        (ref U2) 
+        (pin 84))) 
+    (net 
+      (code 27) 
+      (name "Net-(U2-Pad85)") 
+      (node 
+        (ref U2) 
+        (pin 85))) 
+    (net 
+      (code 28) 
+      (name "Net-(U2-Pad86)") 
+      (node 
+        (ref U2) 
+        (pin 86))) 
+    (net 
+      (code 29) 
+      (name "Net-(U2-Pad87)") 
+      (node 
+        (ref U2) 
+        (pin 87))) 
+    (net 
+      (code 30) 
+      (name "Net-(U2-Pad88)") 
+      (node 
+        (ref U2) 
+        (pin 88))) 
+    (net 
+      (code 31) 
+      (name "Net-(U2-Pad89)") 
+      (node 
+        (ref U2) 
+        (pin 89))) 
+    (net 
+      (code 32) 
+      (name "Net-(U2-Pad90)") 
+      (node 
+        (ref U2) 
+        (pin 90))) 
+    (net 
+      (code 33) 
+      (name "Net-(U2-Pad91)") 
+      (node 
+        (ref U2) 
+        (pin 91))) 
+    (net 
+      (code 34) 
+      (name "Net-(U2-Pad92)") 
+      (node 
+        (ref U2) 
+        (pin 92))) 
+    (net 
+      (code 35) 
+      (name "Net-(U2-Pad93)") 
+      (node 
+        (ref U2) 
+        (pin 93))) 
+    (net 
+      (code 36) 
+      (name "Net-(J5-Pad3)") 
+      (node 
+        (ref R1) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 3))) 
+    (net 
+      (code 37) 
+      (name "Net-(J5-Pad6)") 
+      (node 
+        (ref R4) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 6))) 
+    (net 
+      (code 38) 
+      (name "Net-(J6-Pad10)") 
+      (node 
+        (ref J6) 
+        (pin 10)) 
+      (node 
+        (ref R5) 
+        (pin 2))) 
+    (net 
+      (code 39) 
+      (name "Net-(J6-Pad3)") 
+      (node 
+        (ref J6) 
+        (pin 3)) 
+      (node 
+        (ref R2) 
+        (pin 1))) 
+    (net 
+      (code 40) 
+      (name "Net-(J6-Pad5)") 
+      (node 
+        (ref J6) 
+        (pin 5)) 
+      (node 
+        (ref R3) 
+        (pin 1))) 
+    (net 
+      (code 41) 
+      (name "Net-(J6-Pad8)") 
+      (node 
+        (ref R6) 
+        (pin 2)) 
+      (node 
+        (ref J6) 
+        (pin 8))) 
+    (net 
+      (code 42) 
+      (name "Net-(U1-Pad0)") 
+      (node 
+        (ref U1) 
+        (pin 0))) 
+    (net 
+      (code 43) 
+      (name +12V) 
+      (node 
+        (ref U1) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 2))) 
+    (net 
+      (code 44) 
+      (name TRIM1) 
+      (node 
+        (ref RV1) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 202))) 
+    (net 
+      (code 45) 
+      (name TX0) 
+      (node 
+        (ref U4) 
+        (pin 0)) 
+      (node 
+        (ref J10) 
+        (pin 3))) 
+    (net 
+      (code 46) 
+      (name RX0) 
+      (node 
+        (ref U4) 
+        (pin 1)) 
+      (node 
+        (ref J10) 
+        (pin 4))) 
+    (net 
+      (code 47) 
+      (name DP_CLOCK) 
+      (node 
+        (ref J7) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 4))) 
+    (net 
+      (code 48) 
+      (name DP_LOAD) 
+      (node 
+        (ref J7) 
+        (pin 3)) 
+      (node 
+        (ref U4) 
+        (pin 5))) 
+    (net 
+      (code 49) 
+      (name VU_STROBE) 
+      (node 
+        (ref U4) 
+        (pin 12)) 
+      (node 
+        (ref J8) 
+        (pin 3))) 
+    (net 
+      (code 50) 
+      (name MAINT_DATA) 
+      (node 
+        (ref U4) 
+        (pin 30)) 
+      (node 
+        (ref R4) 
+        (pin 1))) 
+    (net 
+      (code 51) 
+      (name MAINT_CLOCK) 
+      (node 
+        (ref U4) 
+        (pin 32)) 
+      (node 
+        (ref J5) 
+        (pin 5))) 
+    (net 
+      (code 52) 
+      (name LDP_DATA) 
+      (node 
+        (ref R1) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 34))) 
+    (net 
+      (code 53) 
+      (name LDP_CLOCK) 
+      (node 
+        (ref U4) 
+        (pin 36)) 
+      (node 
+        (ref J5) 
+        (pin 4))) 
+    (net 
+      (code 54) 
+      (name CS1_DATA) 
+      (node 
+        (ref R2) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 38))) 
+    (net 
+      (code 55) 
+      (name CS1_CLOCK) 
+      (node 
+        (ref J6) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 40))) 
+    (net 
+      (code 56) 
+      (name CS2_DATA) 
+      (node 
+        (ref R3) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 42))) 
+    (net 
+      (code 57) 
+      (name CS2_CLOCK) 
+      (node 
+        (ref J6) 
+        (pin 6)) 
+      (node 
+        (ref U4) 
+        (pin 44))) 
+    (net 
+      (code 58) 
+      (name VU1_DATA) 
+      (node 
+        (ref R5) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 46))) 
+    (net 
+      (code 59) 
+      (name VU1_CLOCK) 
+      (node 
+        (ref J6) 
+        (pin 9)) 
+      (node 
+        (ref U4) 
+        (pin 48))) 
+    (net 
+      (code 60) 
+      (name VU2_DATA) 
+      (node 
+        (ref R6) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 50))) 
+    (net 
+      (code 61) 
+      (name VU2_CLOCK) 
+      (node 
+        (ref U4) 
+        (pin 52)) 
+      (node 
+        (ref J6) 
+        (pin 7))) 
+    (net 
+      (code 62) 
+      (name VU_RESET) 
+      (node 
+        (ref U4) 
+        (pin 13)) 
+      (node 
+        (ref J8) 
+        (pin 4))) 
+    (net 
+      (code 63) 
+      (name DP_DATA_IN) 
+      (node 
+        (ref J7) 
+        (pin 5)) 
+      (node 
+        (ref U4) 
+        (pin 3))) 
+    (net 
+      (code 64) 
+      (name OE) 
+      (node 
+        (ref U4) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 2))) 
+    (net 
+      (code 65) 
+      (name SPECTRUM_LEFT) 
+      (node 
+        (ref J8) 
+        (pin 5)) 
+      (node 
+        (ref U4) 
+        (pin 200))) 
+    (net 
+      (code 66) 
+      (name SPECTRUM_RIGHT) 
+      (node 
+        (ref U4) 
+        (pin 201)) 
+      (node 
+        (ref J8) 
+        (pin 6))) 
+    (net 
+      (code 67) 
+      (name TRIM2) 
+      (node 
+        (ref RV4) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 203))) 
+    (net 
+      (code 68) 
+      (name TRIM3) 
+      (node 
+        (ref U4) 
+        (pin 204)) 
+      (node 
+        (ref RV2) 
+        (pin 2))) 
+    (net 
+      (code 69) 
+      (name TRIM4) 
+      (node 
+        (ref RV5) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 205))) 
+    (net 
+      (code 70) 
+      (name BATTERY_LEVEL) 
+      (node 
+        (ref J12) 
+        (pin 3)) 
+      (node 
+        (ref U4) 
+        (pin 207))) 
+    (net 
+      (code 71) 
+      (name JUMPER1) 
+      (node 
+        (ref RN1) 
+        (pin 2)) 
+      (node 
+        (ref SW1) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 53))) 
+    (net 
+      (code 72) 
+      (name JUMPER2) 
+      (node 
+        (ref SW1) 
+        (pin 2)) 
+      (node 
+        (ref RN1) 
+        (pin 3)) 
+      (node 
+        (ref U4) 
+        (pin 51))) 
+    (net 
+      (code 73) 
+      (name JUMPER3) 
+      (node 
+        (ref SW1) 
+        (pin 3)) 
+      (node 
+        (ref RN1) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 49))) 
+    (net 
+      (code 74) 
+      (name JUMPER4) 
+      (node 
+        (ref RN1) 
+        (pin 5)) 
+      (node 
+        (ref SW1) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 47))) 
+    (net 
+      (code 75) 
+      (name JUMPER5) 
+      (node 
+        (ref RN1) 
+        (pin 6)) 
+      (node 
+        (ref SW1) 
+        (pin 5)) 
+      (node 
+        (ref U4) 
+        (pin 45))) 
+    (net 
+      (code 76) 
+      (name RESET) 
+      (node 
+        (ref SW2) 
+        (pin 4)) 
+      (node 
+        (ref SW2) 
+        (pin 2)) 
+      (node 
+        (ref U4) 
+        (pin 105))) 
+    (net 
+      (code 77) 
+      (name GND) 
+      (node 
+        (ref U1) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 8)) 
+      (node 
+        (ref J5) 
+        (pin 8)) 
+      (node 
+        (ref J10) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 61)) 
+      (node 
+        (ref U3) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 4)) 
+      (node 
+        (ref U3) 
+        (pin 8)) 
+      (node 
+        (ref J7) 
+        (pin 1)) 
+      (node 
+        (ref RV1) 
+        (pin 1)) 
+      (node 
+        (ref J5) 
+        (pin 1)) 
+      (node 
+        (ref U2) 
+        (pin 62)) 
+      (node 
+        (ref J9) 
+        (pin 7)) 
+      (node 
+        (ref U2) 
+        (pin 61)) 
+      (node 
+        (ref U2) 
+        (pin 60)) 
+      (node 
+        (ref J12) 
+        (pin 1)) 
+      (node 
+        (ref RV4) 
+        (pin 1)) 
+      (node 
+        (ref RV2) 
+        (pin 1)) 
+      (node 
+        (ref RV5) 
+        (pin 1)) 
+      (node 
+        (ref RV3) 
+        (pin 1)) 
+      (node 
+        (ref RN1) 
+        (pin 1)) 
+      (node 
+        (ref J9) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 1)) 
+      (node 
+        (ref SW2) 
+        (pin 1)) 
+      (node 
+        (ref J6) 
+        (pin 12)) 
+      (node 
+        (ref SW2) 
+        (pin 3)) 
+      (node 
+        (ref J8) 
+        (pin 1)) 
+      (node 
+        (ref J4) 
+        (pin 1)) 
+      (node 
+        (ref J3) 
+        (pin 1)) 
+      (node 
+        (ref J2) 
+        (pin 1)) 
+      (node 
+        (ref J1) 
+        (pin 1))) 
+    (net 
+      (code 78) 
+      (name +5V) 
+      (node 
+        (ref U2) 
+        (pin 70)) 
+      (node 
+        (ref J2) 
+        (pin 2)) 
+      (node 
+        (ref J5) 
+        (pin 2)) 
+      (node 
+        (ref J3) 
+        (pin 2)) 
+      (node 
+        (ref J4) 
+        (pin 2)) 
+      (node 
+        (ref J9) 
+        (pin 1)) 
+      (node 
+        (ref J8) 
+        (pin 2)) 
+      (node 
+        (ref J11) 
+        (pin 6)) 
+      (node 
+        (ref J11) 
+        (pin 5)) 
+      (node 
+        (ref J5) 
+        (pin 7)) 
+      (node 
+        (ref U3) 
+        (pin 1)) 
+      (node 
+        (ref U4) 
+        (pin 70)) 
+      (node 
+        (ref SW1) 
+        (pin 9)) 
+      (node 
+        (ref SW1) 
+        (pin 8)) 
+      (node 
+        (ref SW1) 
+        (pin 7)) 
+      (node 
+        (ref SW1) 
+        (pin 6)) 
+      (node 
+        (ref SW1) 
+        (pin 10)) 
+      (node 
+        (ref RV3) 
+        (pin 3)) 
+      (node 
+        (ref RV5) 
+        (pin 3)) 
+      (node 
+        (ref RV2) 
+        (pin 3)) 
+      (node 
+        (ref RV4) 
+        (pin 3)) 
+      (node 
+        (ref RV1) 
+        (pin 3)) 
+      (node 
+        (ref J6) 
+        (pin 11)) 
+      (node 
+        (ref J6) 
+        (pin 2)) 
+      (node 
+        (ref J10) 
+        (pin 7)) 
+      (node 
+        (ref J10) 
+        (pin 2)) 
+      (node 
+        (ref J7) 
+        (pin 2)) 
+      (node 
+        (ref U1) 
+        (pin 5)) 
+      (node 
+        (ref J9) 
+        (pin 8)) 
+      (node 
+        (ref J12) 
+        (pin 2))) 
+    (net 
+      (code 79) 
+      (name TRIM5) 
+      (node 
+        (ref U4) 
+        (pin 206)) 
+      (node 
+        (ref RV3) 
+        (pin 2))) 
+    (net 
+      (code 80) 
+      (name SCL) 
+      (node 
+        (ref J11) 
+        (pin 3)) 
+      (node 
+        (ref J9) 
+        (pin 3)) 
+      (node 
+        (ref J9) 
+        (pin 6))) 
+    (net 
+      (code 81) 
+      (name SDA) 
+      (node 
+        (ref J9) 
+        (pin 5)) 
+      (node 
+        (ref J11) 
+        (pin 4)) 
+      (node 
+        (ref J9) 
+        (pin 4))) 
+    (net 
+      (code 82) 
+      (name TX1) 
+      (node 
+        (ref J10) 
+        (pin 6)) 
+      (node 
+        (ref U4) 
+        (pin 18))) 
+    (net 
+      (code 83) 
+      (name RX1) 
+      (node 
+        (ref J10) 
+        (pin 5)) 
+      (node 
+        (ref U4) 
+        (pin 19))) 
+    (net 
+      (code 84) 
+      (name LOGIC_2560_RX) 
+      (node 
+        (ref U3) 
+        (pin 3)) 
+      (node 
+        (ref U4) 
+        (pin 16))) 
+    (net 
+      (code 85) 
+      (name LOGIC_2560_TX) 
+      (node 
+        (ref U3) 
+        (pin 4)) 
+      (node 
+        (ref U4) 
+        (pin 17))) 
+    (net 
+      (code 86) 
+      (name "Net-(U4-Pad6)") 
+      (node 
+        (ref U4) 
+        (pin 6))) 
+    (net 
+      (code 87) 
+      (name "Net-(U4-Pad7)") 
+      (node 
+        (ref U4) 
+        (pin 7))) 
+    (net 
+      (code 88) 
+      (name "Net-(U4-Pad8)") 
+      (node 
+        (ref U4) 
+        (pin 8))) 
+    (net 
+      (code 89) 
+      (name "Net-(U4-Pad9)") 
+      (node 
+        (ref U4) 
+        (pin 9))) 
+    (net 
+      (code 90) 
+      (name "Net-(U4-Pad10)") 
+      (node 
+        (ref U4) 
+        (pin 10))) 
+    (net 
+      (code 91) 
+      (name "Net-(U4-Pad11)") 
+      (node 
+        (ref U4) 
+        (pin 11))) 
+    (net 
+      (code 92) 
+      (name "Net-(U4-Pad14)") 
+      (node 
+        (ref U4) 
+        (pin 14))) 
+    (net 
+      (code 93) 
+      (name "Net-(U4-Pad15)") 
+      (node 
+        (ref U4) 
+        (pin 15))) 
+    (net 
+      (code 94) 
+      (name "Net-(U4-Pad20)") 
+      (node 
+        (ref U4) 
+        (pin 20))) 
+    (net 
+      (code 95) 
+      (name "Net-(U4-Pad21)") 
+      (node 
+        (ref U4) 
+        (pin 21))) 
+    (net 
+      (code 96) 
+      (name "Net-(U4-Pad22)") 
+      (node 
+        (ref U4) 
+        (pin 22))) 
+    (net 
+      (code 97) 
+      (name "Net-(U4-Pad23)") 
+      (node 
+        (ref U4) 
+        (pin 23))) 
+    (net 
+      (code 98) 
+      (name "Net-(U4-Pad24)") 
+      (node 
+        (ref U4) 
+        (pin 24))) 
+    (net 
+      (code 99) 
+      (name "Net-(U4-Pad25)") 
+      (node 
+        (ref U4) 
+        (pin 25))) 
+    (net 
+      (code 100) 
+      (name "Net-(U4-Pad26)") 
+      (node 
+        (ref U4) 
+        (pin 26))) 
+    (net 
+      (code 101) 
+      (name "Net-(U4-Pad27)") 
+      (node 
+        (ref U4) 
+        (pin 27))) 
+    (net 
+      (code 102) 
+      (name "Net-(U4-Pad28)") 
+      (node 
+        (ref U4) 
+        (pin 28))) 
+    (net 
+      (code 103) 
+      (name "Net-(U4-Pad29)") 
+      (node 
+        (ref U4) 
+        (pin 29))) 
+    (net 
+      (code 104) 
+      (name "Net-(U4-Pad31)") 
+      (node 
+        (ref U4) 
+        (pin 31))) 
+    (net 
+      (code 105) 
+      (name "Net-(U4-Pad33)") 
+      (node 
+        (ref U4) 
+        (pin 33))) 
+    (net 
+      (code 106) 
+      (name "Net-(U4-Pad35)") 
+      (node 
+        (ref U4) 
+        (pin 35))) 
+    (net 
+      (code 107) 
+      (name "Net-(U4-Pad37)") 
+      (node 
+        (ref U4) 
+        (pin 37))) 
+    (net 
+      (code 108) 
+      (name "Net-(U4-Pad39)") 
+      (node 
+        (ref U4) 
+        (pin 39))) 
+    (net 
+      (code 109) 
+      (name "Net-(U4-Pad41)") 
+      (node 
+        (ref U4) 
+        (pin 41))) 
+    (net 
+      (code 110) 
+      (name "Net-(U4-Pad43)") 
+      (node 
+        (ref U4) 
+        (pin 43))) 
+    (net 
+      (code 111) 
+      (name "Net-(U4-Pad72)") 
+      (node 
+        (ref U4) 
+        (pin 72))) 
+    (net 
+      (code 112) 
+      (name "Net-(U4-Pad104)") 
+      (node 
+        (ref U4) 
+        (pin 104))) 
+    (net 
+      (code 113) 
+      (name "Net-(U4-Pad71)") 
+      (node 
+        (ref U4) 
+        (pin 71))) 
+    (net 
+      (code 114) 
+      (name "Net-(U4-Pad215)") 
+      (node 
+        (ref U4) 
+        (pin 215))) 
+    (net 
+      (code 115) 
+      (name "Net-(U4-Pad214)") 
+      (node 
+        (ref U4) 
+        (pin 214))) 
+    (net 
+      (code 116) 
+      (name "Net-(U4-Pad213)") 
+      (node 
+        (ref U4) 
+        (pin 213))) 
+    (net 
+      (code 117) 
+      (name "Net-(U4-Pad212)") 
+      (node 
+        (ref U4) 
+        (pin 212))) 
+    (net 
+      (code 118) 
+      (name "Net-(U4-Pad211)") 
+      (node 
+        (ref U4) 
+        (pin 211))) 
+    (net 
+      (code 119) 
+      (name "Net-(U4-Pad210)") 
+      (node 
+        (ref U4) 
+        (pin 210))) 
+    (net 
+      (code 120) 
+      (name "Net-(U4-Pad209)") 
+      (node 
+        (ref U4) 
+        (pin 209))) 
+    (net 
+      (code 121) 
+      (name "Net-(U4-Pad208)") 
+      (node 
+        (ref U4) 
+        (pin 208))) 
+    (net 
+      (code 122) 
+      (name "Net-(U4-Pad60)") 
+      (node 
+        (ref U4) 
+        (pin 60))) 
+    (net 
+      (code 123) 
+      (name "Net-(U4-Pad103)") 
+      (node 
+        (ref U4) 
+        (pin 103))) 
+    (net 
+      (code 124) 
+      (name "Net-(U4-Pad102)") 
+      (node 
+        (ref U4) 
+        (pin 102))) 
+    (net 
+      (code 125) 
+      (name "Net-(U4-Pad101)") 
+      (node 
+        (ref U4) 
+        (pin 101))) 
+    (net 
+      (code 126) 
+      (name "Net-(U4-Pad100)") 
+      (node 
+        (ref U4) 
+        (pin 100))) 
+    (net 
+      (code 127) 
+      (name "Net-(U3-Pad11)") 
+      (node 
+        (ref U3) 
+        (pin 11))) 
+    (net 
+      (code 128) 
+      (name "Net-(U3-Pad12)") 
+      (node 
+        (ref U3) 
+        (pin 12))) 
+    (net 
+      (code 129) 
+      (name "Net-(U3-Pad5)") 
+      (node 
+        (ref U3) 
+        (pin 5))) 
+    (net 
+      (code 130) 
+      (name "Net-(U3-Pad6)") 
+      (node 
+        (ref U3) 
+        (pin 6))) 
+    (net 
+      (code 131) 
+      (name 3.3V) 
+      (node 
+        (ref U3) 
+        (pin 7)) 
+      (node 
+        (ref U2) 
+        (pin 71)))))

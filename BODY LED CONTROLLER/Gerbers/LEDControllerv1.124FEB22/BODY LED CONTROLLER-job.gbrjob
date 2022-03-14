@@ -1,0 +1,172 @@
+{
+"DesignRules": [
+{
+"Layers": "Outer",
+"MinLineWidth": 0.25,
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"RegionToRegion": 0.508,
+"TrackToRegion": 0.508,
+"TrackToTrack": 0.2
+},
+{
+"Layers": "Inner",
+"MinLineWidth": 0.25,
+"PadToPad": 0.0,
+"PadToTrack": 0.0,
+"TrackToTrack": 0.2
+}
+],
+"FilesAttributes": [
+{
+"FileFunction": "Copper,L1,Top",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-F_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L2,Inr",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-In1_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L3,Inr",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-In2_Cu.gbr"
+},
+{
+"FileFunction": "Copper,L4,Bot",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-B_Cu.gbr"
+},
+{
+"FileFunction": "SolderPaste,Top",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-F_Paste.gbr"
+},
+{
+"FileFunction": "SolderPaste,Bot",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-B_Paste.gbr"
+},
+{
+"FileFunction": "Legend,Top",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-F_Silkscreen.gbr"
+},
+{
+"FileFunction": "Legend,Bot",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-B_Silkscreen.gbr"
+},
+{
+"FileFunction": "SolderMask,Top",
+"FilePolarity": "Negative",
+"Path": "BODY LED CONTROLLER-F_Mask.gbr"
+},
+{
+"FileFunction": "SolderMask,Bot",
+"FilePolarity": "Negative",
+"Path": "BODY LED CONTROLLER-B_Mask.gbr"
+},
+{
+"FileFunction": "Profile",
+"FilePolarity": "Positive",
+"Path": "BODY LED CONTROLLER-Edge_Cuts.gbr"
+}
+],
+"GeneralSpecs": {
+"BoardThickness": 1.6,
+"Finish": "None",
+"LayerNumber": 4,
+"ProjectId": {
+"GUID": "4c45445f-436f-46e7-9472-6f6c6c65725f",
+"Name": "LED_Controller_Without_Level_Shifter",
+"Revision": "1.0"
+},
+"Size": {
+"X": 114.04,
+"Y": 80.22
+}
+},
+"Header": {
+"CreationDate": "2022-02-24T11:08:09-05:00",
+"GenerationSoftware": {
+"Application": "Pcbnew",
+"Vendor": "KiCad",
+"Version": "(6.0.0-0)"
+}
+},
+"MaterialStackup": [
+{
+"Color": "White",
+"Name": "Top Silk Screen",
+"Type": "Legend"
+},
+{
+"Name": "Top Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "Blue",
+"Name": "Top Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "F.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "F.Cu/In1.Cu",
+"Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)",
+"Thickness": 0.48,
+"Type": "Dielectric"
+},
+{
+"Name": "In1.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "In1.Cu/In2.Cu",
+"Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)",
+"Thickness": 0.48,
+"Type": "Dielectric"
+},
+{
+"Name": "In2.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Material": "FR4",
+"Name": "In2.Cu/B.Cu",
+"Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)",
+"Thickness": 0.48,
+"Type": "Dielectric"
+},
+{
+"Name": "B.Cu",
+"Thickness": 0.035,
+"Type": "Copper"
+},
+{
+"Color": "Blue",
+"Name": "Bottom Solder Mask",
+"Thickness": 0.01,
+"Type": "SolderMask"
+},
+{
+"Name": "Bottom Solder Paste",
+"Type": "SolderPaste"
+},
+{
+"Color": "White",
+"Name": "Bottom Silk Screen",
+"Type": "Legend"
+}
+]
+}
